@@ -1,35 +1,27 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-   <meta charset='utf-8'>
-    <title>This example page 2</title>
-  </head>
-  <body>
-    <p>Will Lager - will.lager@rjionline.org</p>
-     THI EXAMPLE IN CSS FILE
-    <p>This is totally a joke. Yes, a joke. Keep it clean.</p>
-    
-    <a href="mailto:will.lager@rjionline.org"><img src="img/will_at_museum3.jpg"></a>
-    <!-- <img src="https://williamlager.com/img/illus/typical-leaver.png"> -->
-    <a href=""><img src=""></a>
-
-    <ul>
-      <li>Slash/Back</li>
-      <li>The Thing</li>
-      <li>Everything Everywhere All At Once</li>
-      <li>Fury Road</li>
-      <li>I forgot</li>
+.mark-img 
+  {
+    float: left;
+    margin: 3px;
+    /*padding-right: 10px;*/
+    max-height: 3.5rem;
+    margin-top: 0.5rem;
 
 
-    </ul>
+  }
 
-
-    <a href="example.html">link within your site</a>
-    <a href="https://rjionline.org/">link outside now</a>
-
-
-   
-  </body>
-
+.project-thumb {
+  float: left;
+  padding:.2rem;
   
-</html>
+}
+
+.project-img {
+  
+  float: left;
+  padding:1rem;
+  margin-right:5px;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  max-width: 100%;
+  
+}
