@@ -1,3 +1,48 @@
+.maindiv {
+  background-image: url("../img/will_at_museum.jpg");
+
+}
+
+.bookimage {
+  
+}
+.bitter {
+  font-family: 'Bitter', serif;
+
+}
+.lorem {
+  font-family: 'Open Sans', sans-serif;
+
+  text-transform: uppercase;
+  font-weight: 800;
+  max-width: 50%;
+
+}
+.lorem2 {
+  float: left !important;
+  font-family: 'Open Sans', sans-serif;
+
+  text-transform: uppercase;
+  font-weight: 800;
+  max-width: 40%;
+  margin: 5rem;
+
+}
+
+.smallimage {
+  position: ;
+
+}
+
+
+.bookimage img {
+  max-width:200px;
+
+
+}
+
+
+
 .mark-img 
   {
     float: left;
