@@ -1,11 +1,21 @@
 .maindiv {
   background-image: url("../img/will_at_museum.jpg");
+  background-color: gold;
 
 }
 
 .bookimage {
   
 }
+
+
+.bookimage img {
+  max-width:300px;
+  max-height: 200px;
+
+}
+
+
 .bitter {
   font-family: 'Bitter', serif;
 
@@ -13,19 +23,24 @@
 .lorem {
   font-family: 'Open Sans', sans-serif;
 
-  text-transform: uppercase;
-  font-weight: 800;
+  text-transform: capitalize;
+  font-weight: 600;
   max-width: 50%;
 
 }
 .lorem2 {
-  float: left !important;
+  background-color: white;
+  position: sticky;
+top: 40px; left: 40px;
+/*  float: right !important;*/
   font-family: 'Open Sans', sans-serif;
 
   text-transform: uppercase;
   font-weight: 800;
   max-width: 40%;
+  min-width: 10%;
   margin: 5rem;
+  padding: 1rem;
 
 }
 
@@ -34,12 +49,6 @@
 
 }
 
-
-.bookimage img {
-  max-width:200px;
-
-
-}
 
 
 
