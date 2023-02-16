@@ -47,6 +47,12 @@
 
 }
 
+.nav2 {
+  float: left;
+  margin: .2rem;
+  background-color: lightgray;
+}
+
 .form-1 {
   position: sticky;
   top: 30px;
