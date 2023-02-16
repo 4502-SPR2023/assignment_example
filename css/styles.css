@@ -28,28 +28,34 @@
   max-width: 50%;
 
 }
-.lorem2 {
+.nav1 {
   background-color: white;
   position: sticky;
-top: 40px; left: 40px;
-/*  float: right !important;*/
+  top: 40px; left: 40px;
+  float: right !important;
   font-family: 'Open Sans', sans-serif;
 
   text-transform: uppercase;
   font-weight: 800;
   max-width: 40%;
   min-width: 10%;
-  margin: 5rem;
-  padding: 1rem;
+/*  margin: 5rem;*/
+  margin: 1rem 2rem 1rem 1rem;
+  border: dashed red;
+  padding: 1rem 1rem 1rem 5rem;
+/*  padding-left: 10rem;*/
 
 }
 
 .form-1 {
-/*  background-color: rgba(255, 255, 128, .5);*/
-/*background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
-  background: linear-gradient(#00B5E5, #BF6500);
+  position: sticky;
+  top: 30px;
+  background-color: rgba(0, 181, 229, .6);
+  color: lightgray;
+/*background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),*/
+/*            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),*/
+/*            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
+/*  background: linear-gradient(#00B5E5, #BF6500);*/
   margin: 2rem;
 
 }
