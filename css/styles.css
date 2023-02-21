@@ -13,8 +13,10 @@ h2 {
 }
 
 .headline {
-  background-image: url("../img/will_at_museum.jpg");
-/*background-color: teal;*/
+  width: 100%;
+/*  background-image: url("../img/will_at_museum.jpg");*/
+background-clip: content-box;
+background-color: teal;
 }
 
 .headline img {
@@ -227,8 +229,8 @@ h2 {
   .nav1 {
     background-color: white;
     position: sticky;
-    top: 5px; left: 5px;
-    float: left !important;
+    bottom: 5px; right: 5px;
+    float: right !important;
     font-family: 'Open Sans', sans-serif;
     text-transform: lowercase;
     font-weight: 100;
@@ -245,6 +247,18 @@ h2 {
   h1 {
     font-size: 1rem;
   }
+
+  .headline {
+    max-width: 100%;
+    /*  background-image: url("../img/will_at_museum.jpg");*/
+    background-clip: content-box;
+    background-color: teal;
+    }
+
+    .headline img {
+      max-width: 100%;
+    }
+
 
   p {
     font-size: 0.5rem;
