@@ -188,8 +188,10 @@ background-color: teal;
 }
 
 @media screen and (min-width: 401px) and (max-width: 599px){
+    
     body {
     background-color: skyblue;
+    font-family: 'Bitter', sans-serif;
   }
 
   .nav1 {
@@ -217,7 +219,16 @@ background-color: teal;
   p {
     font-size: 0.8rem;
   }
+    .lorem p{
+/*  font-family: 'Open Sans', sans-serif;*/
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: 600;
+/*  max-width: 100%;*/
+  padding: 0.1rem;
+  border: solid black 1px;
 
+}
 
 }
 
