@@ -1,4 +1,15 @@
+.headline {
+  background-image: url("../img/will_at_museum.jpg");
+/*background-color: teal;*/
+}
+
+.headline img {
+  width: 100%;
+}
+
+
 .maindiv {
+  width: 100%;
   background-image: url("../img/will_at_museum.jpg");
   background-color: gold;
   float: left;
@@ -10,8 +21,9 @@
 
 
 .bookimage img {
+  margin: .3rem;
   max-width:300px;
-  max-height: 200px;
+/*  max-height: 200px;*/
 
 }
 
@@ -22,7 +34,6 @@
 }
 .lorem {
   font-family: 'Open Sans', sans-serif;
-
   text-transform: capitalize;
   font-weight: 600;
   max-width: 50%;
@@ -40,10 +51,11 @@
   max-width: 40%;
   min-width: 10%;
 /*  margin: 5rem;*/
-  margin: 1rem 2rem 1rem 1rem;
+  margin: .1rem .2rem .1rem .1rem;
   border: dashed red;
-  padding: 1rem 1rem 1rem 5rem;
-/*  padding-left: 10rem;*/
+  padding: .1rem .1rem .1rem .1rem;
+  
+
 
 }
 
@@ -101,3 +113,63 @@
   max-width: 100%;
   
 }
+
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+
+@media screen and (min-width:1024-1200px) {
+
+  body {
+    background-color: darkred;
+
+  }
+  .bitter {font-family: 'Lobster', cursive !important;}
+  .nav1 {
+  background-color: white;
+  position: sticky;
+  top: 10px; left: 5px;
+  float: left !important;
+  font-family: 'Open Sans', sans-serif;
+
+  text-transform: lowercase;
+  font-weight: 100;
+  max-width: 40%;
+  min-width: 10%;
+/*  margin: 5rem;*/
+/*  margin: 1rem 2rem 1rem 1rem;*/
+/*  border: dashed red;*/
+  padding: 1rem 3rem 1rem 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+/*  padding-left: 10rem;*/
+
+}
+}
+@media screen and (min-width:800-1024px) {
+
+  body {
+    background-color: limegreen;
+  }
+
+}
+
+@media screen and (min-width:600-800px) {
+    body {
+    background-color: skyblue;
+  }
+}
+
+@media screen and (max-width:600px){
+    body {
+    background-color: black;
+  }
+
+}
+
