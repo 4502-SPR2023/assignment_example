@@ -67,17 +67,16 @@ background-color: teal;
 .nav1 {
   background-color: white;
   position: sticky;
-  top: 40px; left: 40px;
+/*  top: 40px; left: 40px;*/
   float: right !important;
   font-family: 'Open Sans', sans-serif;
-
   text-transform: uppercase;
   font-weight: 800;
   max-width: 40%;
   min-width: 10%;
 /*  margin: 5rem;*/
   margin: .1rem .2rem .1rem .1rem;
-  border: dashed red;
+  border: dashed red 0.5px;
   padding: .1rem .1rem .1rem .1rem;
   
 
@@ -86,9 +85,21 @@ background-color: teal;
 
 .nav2 {
   float: left;
-  margin: .2rem;
+  margin: 0.1rem;
+  padding: 0.1rem;
   background-color: lightgray;
+  border: solid lightgray 1px;
+  border-radius: 2px;
 }
+
+.nav2 a {
+  text-decoration: none;
+}
+
+.nav2:hover {
+  background-color: red;
+}
+
 
 .form-1 {
   position: sticky;
@@ -164,20 +175,23 @@ background-color: teal;
     background-color: white;
     position: sticky;
     top: 10px; left: 5px;
-/*    float: left !important;*/
+    float: left !important;
     font-family: 'Bitter', sans-serif;
-
     text-transform: lowercase;
     font-weight: 100;
     max-width: 40%;
     min-width: 10%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
   
 
   }
+  .nav2 {
+    display: inline-block;
+  float: left;
+  margin: 0.1rem;
+  background-color: white;
+  }
+
 }
 @media screen and (min-width: 600px) and (max-width: 699px){
 
