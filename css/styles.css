@@ -23,6 +23,10 @@ background-color: teal;
   max-width: 100%;
 }
 
+.headlineback {
+  background-image: url("");
+
+}
 
 .maindiv {
   width: 100%;
@@ -67,7 +71,7 @@ background-color: teal;
 .nav1 {
   background-color: white;
   position: sticky;
-/*  top: 40px; left: 40px;*/
+  top: 40px; left: 40px;
   float: right !important;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -161,14 +165,14 @@ background-color: teal;
 
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
   body {
     background-color: darkred;
 
   }
   .bitter {
-    font-family: 'Lobster', cursive !important;
+    font-family: 'Bitter', sans-serif;
   }
 
   .nav1 {
@@ -193,7 +197,7 @@ background-color: teal;
   }
 
 }
-@media screen and (min-width: 600px) and (max-width: 699px){
+@media screen and (min-width: 555px) and (max-width: 799px){
 
   body {
     background-color: limegreen;
@@ -201,52 +205,9 @@ background-color: teal;
 
 }
 
-@media screen and (min-width: 401px) and (max-width: 599px){
-    
-    body {
-    background-color: skyblue;
-    font-family: 'Bitter', sans-serif;
-  }
 
-  .nav1 {
-    background-color: white;
-    position: sticky;
-    top: 5px; left: 5px;
-    float: left !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: lowercase;
-    font-weight: 100;
-    font-size: 0.5rem;
-    max-width: 100%;
-    min-width: 10%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: .1rem .1rem .1rem .3rem;
-  
 
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
-    .lorem p{
-/*  font-family: 'Open Sans', sans-serif;*/
-  text-transform: lowercase;
-  font-style: italic;
-  font-weight: 600;
-/*  max-width: 100%;*/
-  padding: 0.1rem;
-  border: solid black 1px;
-
-}
-
-}
-
-@media screen and (max-width: 400px){
+@media screen and (max-width: 554px){
     
   body {
       background-color: orangered;
