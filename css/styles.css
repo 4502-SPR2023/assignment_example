@@ -163,7 +163,11 @@ background-color: teal;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
+footer {
+    background-color: gold;
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: line-through;
+  }
 
 @media only screen and (min-width: 800px) {
 
@@ -197,12 +201,17 @@ background-color: teal;
   }
 
 }
+
 @media screen and (min-width: 555px) and (max-width: 799px){
 
   body {
     background-color: limegreen;
   }
-
+  footer {
+    background-color: teal;
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: line-through;
+  }
 }
 
 
@@ -248,6 +257,12 @@ background-color: teal;
 
   p {
     font-size: 0.5rem;
+  }
+
+  footer {
+    background-color: gold;
+    font-family: 'Climate Crisis', cursive;
+    text-decoration: line-through;
   }
 
 }
