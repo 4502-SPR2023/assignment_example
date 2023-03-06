@@ -9,7 +9,9 @@ Image: remove the border from your linked image (don’t forget this one; it doe
 Background: Give something on the page a background color or background image. Use a color scheme to define the areas of the site, including the header, navigation, body and footer.
 
 Type: Find the Google fonts you want to use here.Links to an external site. Add the link to the font in your html, and use the correct naming convention in your CSS. You'll need a full font stack in your CSS — the Google font, similar system font and serif or sans serif. Example: font-family: 'Roboto', Helvetica, sans-serif;
-
+font-family: 'Faster One', cursive;
+font-family: 'MedievalSharp', cursive;
+font-family: 'Nosifer', cursive;
 */
 
 body {
@@ -33,11 +35,16 @@ a img {
 }
 
 .joke {
+	font-family: 'Faster One', cursive;
 	width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto
 	}
+
+.joke .punchline {
+	font-family: 'Nosifer', cursive;
+}
 
 .maintext {
         background: black;
@@ -49,6 +56,26 @@ a img {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) 
+    }
+
+.movielist {
+	font-family: 'MedievalSharp', cursive;
+}
+
+ @media screen and (max-width: 554px){
+
+.maintext {
+        background: green;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+
     }
 
 
