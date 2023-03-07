@@ -15,7 +15,10 @@ font-family: 'Nosifer', cursive;
 */
 
 body {
-
+	display: flex;
+	justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
 
 	}
 
@@ -57,6 +60,10 @@ a img {
 	border: none;
 }
 
+ul {
+  	list-style-type: none;
+}
+
 .maintext {
 		display: flex;
 		justify-content: center; 
@@ -65,19 +72,14 @@ a img {
         background: lightgray;
         border-radius: 1em;
         padding: 1em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
+        max-width: 800px;
+        
     }
 
 .joke {
 	font-family: 'Faster One', cursive;
 	width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+
 	}
 
  .jokepunchline {
@@ -108,9 +110,7 @@ a img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   
-  /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
-    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+  
 
 }
 
@@ -118,12 +118,15 @@ a img {
 
 .movielist {
 	font-family: 'Tilt Neon', cursive;
+	text-align: center;
 	}
 
- @media screen and (max-width: 554px){
+
+
+@media screen and (max-width: 554px){
 
 .maintext {
-		padding-top: 2rem;
+		margin-top: 1rem;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center; 
@@ -140,30 +143,31 @@ a img {
     .nav1 {
     	align-items: right;
     	background-color: transparent;
-/*    	position: sticky;*/
-/*    	top: 5px; right: 5px;*/
-/*    	float: right !important;*/
+
     	font-family: 'Open Sans', sans-serif;
     	text-transform: uppercase;
     	font-weight: 100;
     	font-size: 2.0rem;
     	max-width: 100%;
     	min-width: 85%;
-  /*  	margin: 5rem;*/
-  /*  	margin: 1rem 2rem 1rem 1rem;*/
-  /*  	border: dashed red;*/
-/*    	padding: .1rem .1rem .1rem .3rem;*/
   
 
  	 }
-.nav1 a {
-	background-color: palevioletred;
- 	display: block;
- 	border: dotted red 1px;
- 	padding: .2rem;
- 	margin: .2rem;
- 	float: right;
- }
+	.nav1 a {
+		background-color: palevioletred;
+	 	display: block;
+	 	border: dotted red 1px;
+	 	padding: .2rem;
+	 	margin: .2rem;
+	 	float: right;
+	 }
+
+	.jokepunchline {
+		
+		text-shadow: white 1px 0 5px;
+
+	}
+
     }
 
 
