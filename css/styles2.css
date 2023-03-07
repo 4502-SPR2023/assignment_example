@@ -21,14 +21,14 @@ body {
 
 
 .nav1 {
-    background-color: white;
-    position: sticky;
-    bottom: 5px; right: 5px;
+    background-color: transparent;
+/*    position: sticky;*/
+/*    bottom: 5px; right: 5px;*/
     float: right !important;
     font-family: 'Open Sans', sans-serif;
     text-transform: lowercase;
     font-weight: 100;
-    font-size: 0.3rem;
+    font-size: 1rem;
     max-width: 100%;
     min-width: 30%;
   /*  margin: 5rem;*/
@@ -38,6 +38,13 @@ body {
   
 
   }
+ .nav1 a {
+ 	background-color: white;
+/* 	display: inline-block;*/
+ 	border: dotted red 1px;
+ 	padding:.2rem;
+ 	border-radius: 0.1rem;
+ }
 
 img {
 	border: none;
@@ -49,6 +56,21 @@ img {
 a img {
 	border: none;
 }
+
+.maintext {
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+        background: lightgray;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
 
 .joke {
 	font-family: 'Faster One', cursive;
@@ -92,16 +114,7 @@ a img {
 
 }
 
-.maintext {
-        background: lightgray;
-        border-radius: 1em;
-        padding: 1em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
-    }
+
 
 .movielist {
 	font-family: 'Tilt Neon', cursive;
@@ -110,36 +123,49 @@ a img {
  @media screen and (max-width: 554px){
 
 .maintext {
+		padding-top: 2rem;
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
         background: #00827F; /* Teal green */
         color: white;
         border-radius: .1em;
         padding: 1em;
         font-size: 1.5rem;
-        top: 50%;
+        /*top: 50%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) 
+        transform: translate(-50%, -50%) */
     }
 
     .nav1 {
-    background-color: palevioletred;
-    position: sticky;
-    top: 5px; right: 5px;
-    float: right !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 2.0rem;
-    max-width: 100%;
-    min-width: 85%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: .1rem .1rem .1rem .3rem;
+    	align-items: right;
+    	background-color: transparent;
+/*    	position: sticky;*/
+/*    	top: 5px; right: 5px;*/
+/*    	float: right !important;*/
+    	font-family: 'Open Sans', sans-serif;
+    	text-transform: uppercase;
+    	font-weight: 100;
+    	font-size: 2.0rem;
+    	max-width: 100%;
+    	min-width: 85%;
+  /*  	margin: 5rem;*/
+  /*  	margin: 1rem 2rem 1rem 1rem;*/
+  /*  	border: dashed red;*/
+/*    	padding: .1rem .1rem .1rem .3rem;*/
   
 
-  }
-
+ 	 }
+.nav1 a {
+	background-color: palevioletred;
+ 	display: block;
+ 	border: dotted red 1px;
+ 	padding: .2rem;
+ 	margin: .2rem;
+ 	float: right;
+ }
     }
 
 
