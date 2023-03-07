@@ -62,6 +62,7 @@ img {
 	border: none;
 	display: flex;
     justify-content: center;
+    
 
 }
 
@@ -119,7 +120,7 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   
-  
+  text-shadow: white 1px 0 5px;
 
 }
 
@@ -128,6 +129,7 @@ ul {
 .movielist {
 	font-family: 'Tilt Neon', cursive;
 	text-align: center;
+	background-color: aquamarine;
 	}
 
 footer {
@@ -173,10 +175,10 @@ header	.nav1 a {
 	 	float: right;
 	 }
 
-	.jokepunchline {
+.jokepunchline {
+	
 		
-/*		text-shadow: white 1px 0 5px;*/
-
+text-shadow: teal 1px 0 5px;x
 	}
 
     }
