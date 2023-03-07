@@ -22,6 +22,9 @@ body {
 
 	}
 
+header {
+	background-color: lightblue;
+}
 
 .nav1 {
     background-color: transparent;
@@ -121,7 +124,9 @@ ul {
 	text-align: center;
 	}
 
-
+footer {
+	background-color: aquamarine;
+}
 
 @media screen and (max-width: 554px){
 
