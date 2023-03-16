@@ -20,17 +20,32 @@ font-family: 'Nosifer', cursive;
 background-color: lightblue;
 */
 
+/*
+font-family: 'Climate Crisis', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sono', sans-serif;*/
+
 body {
 	display: flex;
 	justify-content: center; 
 	align-items: center;
 	flex-direction: column; 
-
+	font-family: 'Sono', sans-serif;
 	}
 
 header {
 	background-color: lightblue;
 }
+
+
+.fontexample {
+/*	font-family: 'Climate Crisis', cursive;*/
+	font-family: 'Open Sans', sans-serif;
+/*	font-weight: 900;*/
+	font-weight: 200;
+
+}
+
 
 .nav1 {
     background-color: transparent;
@@ -88,7 +103,8 @@ ul {
 
 .joke {
 /*	font-family: 'Roboto', sans-serif;*/
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;*/
+	font-family: 'Abril Fatface', cursive;
 	width: 80%;
 
 	}
