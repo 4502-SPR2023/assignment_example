@@ -46,6 +46,11 @@ header {
 
 }
 
+.page2fontexample {
+	
+	
+}
+
 
 .nav1 {
     background-color: transparent;
@@ -183,6 +188,8 @@ footer {
   
 
  	 }
+
+ 	 
 header	.nav1 a {
 		background-color: palevioletred;
 	 	display: block;
