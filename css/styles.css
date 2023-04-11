@@ -127,6 +127,10 @@ figcaption {
 
 }
 
+.bitter {
+  background-color: rgba(255,87,51,.25);
+}
+
 .bitter  p {
   font-family: 'Bitter', serif;
 
@@ -135,6 +139,7 @@ figcaption {
 /*  max-width: 50%;*/
   padding: 0.1rem;
   border: solid blueviolet; 1px;
+  
 
 }
 .lorem p {
