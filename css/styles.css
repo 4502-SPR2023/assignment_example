@@ -68,6 +68,12 @@ figcaption {
 
 }
 
+
+body {
+  background-color: lightyellow;
+}
+
+
 .maindiv {
   width: 100%;
   background-image: url("../img/will_at_museum.jpg");
