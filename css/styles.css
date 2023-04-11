@@ -232,7 +232,7 @@ figcaption {
 footer {
     background-color: gold;
     font-family: 'Bitter', sans-serif;
-    text-decoration: line-through;
+/*    text-decoration: line-through;*/
   }
 
 
@@ -241,7 +241,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
   body {
-    background-color: lightcoral;
+    background-color: lightskyblue;
 
   }
   .bitter {
@@ -274,7 +274,7 @@ footer {
 @media screen and (min-width: 555px) and (max-width: 799px){
 
   body {
-    background-color: limegreen;
+    background-color: lightsteelblue;
   }
   footer {
     background-color: teal;
@@ -288,7 +288,7 @@ footer {
 @media screen and (max-width: 554px){
     
   body {
-      background-color: orangered;
+      background-color: skyblue;
     }
   .nav1 {
     background-color: white;
