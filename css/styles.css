@@ -247,7 +247,7 @@ body {
   justify-content: center; 
   align-items: center;
   flex-direction: column; 
-  font-family: 'Sono', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 /*  background-color: beige;*/
   }
 
@@ -378,58 +378,6 @@ ul {
     
   }
 
-@media screen and (max-width: 554px){
-
-.maintext {
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-      align-items: ;
-      flex-direction: column; 
-        background: #00827F; /* Teal green */
-        color: white;
-        border-radius: .1em;
-        padding: 1em;
-        font-size: 1.5rem;
-        
-    }
-
-    .nav1 {
-      align-items: right;
-      background-color: transparent;
-
-      font-family: 'Open Sans', sans-serif;
-      text-transform: uppercase;
-      font-weight: 100;
-      font-size: 2.0rem;
-      max-width: 100%;
-      min-width: 85%;
-  
-
-   }
-
-   
-header  .nav1 a {
-    background-color: palevioletred;
-    display: block;
-    border: dotted red 1px;
-    padding: .2rem;
-    margin: .2rem;
-    float: right;
-   }
-
-.jokepunchline {
-  
-    
-text-shadow: teal 1px 0 5px;x
-  }
-
-    }
-
-
-
-
 
 
 
@@ -483,7 +431,7 @@ text-shadow: teal 1px 0 5px;x
 @media screen and (max-width: 554px){
     
   body {
-      background-color: skyblue;
+      background-color: #b3e0f2;
     }
   .nav1 {
     background-color: white;
@@ -502,6 +450,12 @@ text-shadow: teal 1px 0 5px;x
   }
   h1 {
     font-size: 1rem;
+    font-family: 'Roboto Slab', serif ;
+  }
+
+    h2 {
+    font-size: 0.1rem;
+    font-family: 'Roboto Slab', serif ;
   }
 
   .headline {
@@ -543,17 +497,17 @@ text-shadow: teal 1px 0 5px;x
 
     .nav1 {
       background-color: white;
-    position: sticky;
-    bottom: 5px; right: 5px;
-    float: right !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: lowercase;
-    font-weight: 100;
-    font-size: 0.3rem;
-    max-width: 100%;
-    min-width: 10%;
-    padding: .1rem .1rem .1rem .3rem;
-  
+      position: sticky;
+      bottom: 5px; right: 5px;
+      float: right !important;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: lowercase;
+      font-weight: 100;
+      font-size: 0.3rem;
+      max-width: 100%;
+      min-width: 10%;
+      padding: .1rem .1rem .1rem .3rem;
+    
 
    }
 
@@ -575,4 +529,8 @@ text-shadow: teal 1px 0 5px;x
     
 
 }
+ button {
+  min-width: 10rem;
+  border-radius: 5px;
 
+}
