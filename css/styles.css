@@ -509,10 +509,10 @@ ul {
     align-items: ;
     flex-direction: column; 
     background: #00827F; /* Teal green */
-        color: white;
-        border-radius: .1em;
-        padding: 1em;
-        font-size: 1.5rem;
+    color: white;
+    border-radius: .1em;
+    padding: 1em;
+    font-size: 1.5rem;
         
     }
 
