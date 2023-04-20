@@ -6,6 +6,7 @@ video {
 
 h1 {
   font-size: 4rem;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2 {
@@ -433,6 +434,23 @@ ul {
     background-color: white;
   }
 
+    .headline {
+    display: flex;
+/*    max-width: 100%;*/
+    /*  background-image: url("../img/will_at_museum.jpg");*/
+    background-clip: content-box;
+    background-color: lightcyan;
+    }
+
+    .headline img {
+/*      max-width: 100%;*/
+      float: left;
+/*      display: flex;*/
+      justify-content: center;
+      padding: 0.3rem;
+    }
+
+
 }
 
 @media screen and (min-width: 555px) and (max-width: 799px){
@@ -445,6 +463,22 @@ ul {
     font-family: 'Bitter', sans-serif;
     
   }
+
+    .headline {
+    display: flex;
+/*    max-width: 100%;*/
+    /*  background-image: url("../img/will_at_museum.jpg");*/
+    background-clip: content-box;
+    background-color: teal;
+    }
+
+    .headline img {
+/*      max-width: 100%;*/
+      float: left;
+/*      display: flex;*/
+      justify-content: center;
+      padding: 0.3rem;
+    }
 }
 
 
@@ -479,20 +513,11 @@ ul {
     font-family: 'Roboto Slab', serif ;
   }
 
-  .headline {
-    max-width: 100%;
-    /*  background-image: url("../img/will_at_museum.jpg");*/
-    background-clip: content-box;
-    background-color: teal;
-    }
 
-    .headline img {
-      max-width: 100%;
-    }
 
 
   p {
-    font-size: 0.5rem;
+    font-size: 1.0rem;
   }
 
   footer {
