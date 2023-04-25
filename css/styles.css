@@ -11,6 +11,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  padding-left: 0.5rem;
 }
 
 .headline {
@@ -75,10 +76,12 @@ figcaption {
 
 .maindiv {
   width: 100%;
-  background-image: url("../img/will_at_museum.jpg");
-  background-color: gold;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5)), url("../img/will_at_museum.jpg");
+  background-color: rgba(255, 215, 0, 0.5);
   float: left;
 }
+
+
 
 .bookimage {
   display: inline-block;
@@ -553,6 +556,7 @@ ul {
       max-width: 100%;
       min-width: 10%;
       padding: .1rem .1rem .1rem .3rem;
+      top: 3px;
     
 
    }
