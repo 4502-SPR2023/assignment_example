@@ -133,6 +133,8 @@ figcaption {
 
 .bitter {
   background-color: rgba(255,87,51,.25);
+  padding: 0.2rem;
+  margin: 0.1rem;
 }
 
 .bitter  p {
@@ -141,7 +143,7 @@ figcaption {
   text-transform: ;
   font-weight: 400;
 /*  max-width: 50%;*/
-  padding: 0.1rem;
+  padding: 0.2rem;
   border: solid blueviolet; 1px;
   
 
@@ -415,6 +417,7 @@ ul {
   }
   .bitter {
     font-family: 'Bitter', sans-serif;
+    padding: 0.2rem;
   }
 
   .nav1 {
@@ -465,6 +468,7 @@ ul {
   footer {
     
     font-family: 'Bitter', sans-serif;
+    padding: 0.2rem;
     
   }
 
@@ -527,6 +531,7 @@ ul {
   footer {
     
     font-family: 'Bitter', sans-serif;
+    padding: 0.2rem;
     
   }
 
@@ -578,7 +583,21 @@ text-shadow: teal 1px 0 5px;x
   }
 
     
+  
+.headline {
+  background-color: teal;
 
+}
+
+
+ .headline img {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+  background-color: rgba 138, 43, 226, .2;
+
+ }
+    
 }
  button {
   min-width: 10rem;
