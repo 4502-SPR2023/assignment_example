@@ -31,17 +31,24 @@ background-color: teal;
 /*figure and .gallery-image styles*/
 
 .gallery-image {
+  display: block;
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  margin: 1rem auto;
+  margin: auto;
   width: 100%;
   max-width: 700px;
+  
+
 }
 
 .gallery-image img {
-  width: 100%;
+
+  height: 500px;
+  max-width: 700px;
+  margin: auto;
+
 }
 
 .button_holder {
@@ -57,7 +64,10 @@ button {
 }
 
 figcaption {
-  margin: 0.5rem;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+
 }
 
 .hideThis {
@@ -231,10 +241,13 @@ figcaption {
 .project-img {
   
   float: left;
-  padding:0.1rem;
-  margin-right:5px;
+  margin-left: 100px;
+  padding-left: 100px;
+/*  padding:0.1rem;*/
+/*  padding-left: 5rem;*/
+  /*margin-right:5px;
   margin-bottom: 1rem;
-  margin-top: 0rem;
+  margin-top: 0rem;*/
   max-width: 100%;
   
 }
@@ -263,6 +276,7 @@ body {
   flex-direction: column; 
   font-family: 'Work Sans', sans-serif;
 /*  background-color: beige;*/
+
   }
 
 header {
@@ -410,7 +424,7 @@ ul {
   footer {
     
     font-family: 'Bitter', sans-serif;
-    
+    margin-top: 2rem;
   }
 
 
@@ -424,7 +438,7 @@ ul {
   }
   .bitter {
     font-family: 'Bitter', sans-serif;
-    padding: 0.2rem;
+    padding: 1rem;
   }
 
   .nav1 {
