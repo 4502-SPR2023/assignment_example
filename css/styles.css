@@ -106,25 +106,32 @@ figcaption {
 
 }
 
-
+.listimage-parent {
+  display: flex;
+}
 
 .listimage {
   margin: 0.0rem;
-
+  align-items: center;
+  min-width: 40%;
 
 }
 
 .listimage img {
   margin: 0.1rem;
   padding-bottom: 2rem;
+  align-items: center;
 
 }
 
 .listimage .caption {
+/*  flex-flow: column;*/
+  align-items: center;
 /*  position: -2rem;*/
   font-family: font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
   font-size: smaller;
+  width: 80%;
 }
 
 .listimage .caption p {
