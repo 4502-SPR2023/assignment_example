@@ -67,6 +67,7 @@ figcaption {
   justify-content: center;
   margin-left: 2rem;
   margin-top: 0.5rem;
+  font-family: ;
 
 }
 
@@ -133,6 +134,13 @@ figcaption {
   align-items: center;
 
 }
+
+.section img {
+
+   max-width: 400px;
+   margin: auto;
+}
+
 
 .listimage .caption {
 /*  flex-flow: column;*/
