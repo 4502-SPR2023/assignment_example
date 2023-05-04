@@ -219,6 +219,12 @@ figcaption {
 }
 
 
+.nav2 .active {
+  background-color: blueviolet;
+
+}
+
+
 
 
 .smallimage {
